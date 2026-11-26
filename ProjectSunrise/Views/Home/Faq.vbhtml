@@ -1,0 +1,57 @@
+﻿@Code
+    ViewBag.Title = "Faq"
+End Code
+<div class="container py-4 py-md-5">
+    <div class="mx-auto" style="max-width: 900px;">
+        <h1 class="mb-4">Frequently Asked Questions</h1>
+
+        <div class="table-responsive">
+            <table class="table table-bordered align-middle bg-white">
+                <tbody>
+                    <tr>
+                        <th scope="row" style="width: 34%;">Do I need an account to use NTChat?</th>
+                        <td>
+                            You can view public pages without an account. Registration is required to join rooms,
+                            post messages, react to content, send private messages, and use private pages.
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Can I create my own room?</th>
+                        <td>
+                            Yes. Authenticated users can create rooms, assign a category, add tags, and manage
+                            their own room content.
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Can rooms require an invite?</th>
+                        <td>
+                            Yes. Room owners and staff can make a room invite-only so users need an invitation
+                            before they can join.
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">How do private messages work?</th>
+                        <td>
+                            You can search for another profile and start a direct conversation that only the two
+                            participants can open.
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">How do notifications work?</th>
+                        <td>
+                            Notifications are created when room activity affects members, such as new messages,
+                            room updates, or room invitations.
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Can staff manage the platform outside Django admin?</th>
+                        <td>
+                            Yes. Staff members have access to a dedicated staff panel with moderation controls,
+                            room access settings, profile management, and broadcast notification tools.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

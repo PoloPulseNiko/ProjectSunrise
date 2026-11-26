@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ProjectSunrise.Tests/ProjectSunrise.Tests.vbproj" />
+  <Project Path="ProjectSunrise/ProjectSunrise.vbproj" />
+</Solution>
